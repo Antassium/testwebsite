@@ -14,6 +14,7 @@ body {
 #terminal {
     width: 80%;
     max-width: 800px;
+    max-height: 600px
     background-color: #1e1e1e;
     padding: 20px;
     border-radius: 5px;
