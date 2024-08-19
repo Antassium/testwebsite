@@ -1,0 +1,51 @@
+/* Terminal styles */
+body {
+    background-color: #2d2d2d;
+    color: #d3d7cf;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#terminal {
+    width: 80%;
+    max-width: 800px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#output {
+    margin-bottom: 10px;
+}
+
+#input-line {
+    display: flex;
+}
+
+#prompt {
+    margin-right: 5px;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: #d3d7cf;
+    width: 100%;
+    outline: none;
+    font-family: inherit;
+}
+
+#input:focus {
+    border: none;
+}
+
+/* Cursor */
+#input::placeholder {
+    color: transparent;
+}
